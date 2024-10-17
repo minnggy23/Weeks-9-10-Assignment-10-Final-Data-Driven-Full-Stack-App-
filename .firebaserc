@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "staging": "friendlyeats-codelab-d9888",
+    "dev": "friendlyeats-codelab-d9888"
+  },
+  "targets": {},
+  "etags": {}
+}

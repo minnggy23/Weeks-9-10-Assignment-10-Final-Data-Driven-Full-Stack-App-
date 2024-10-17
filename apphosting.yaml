@@ -1,0 +1,13 @@
+env:
+  - variable: NEXT_PUBLIC_FIREBASE_API_KEY
+    value: AIzaSyDlMg5WexPXE-qrxzlmrtUK9Cn9ermenJE
+  - variable: NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN
+    value: friendlyeats-codelab-d9888.firebaseapp.com
+  - variable: NEXT_PUBLIC_FIREBASE_PROJECT_ID
+    value: friendlyeats-codelab-d9888
+  - variable: NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET
+    value: friendlyeats-codelab-d9888.appspot.com
+  - variable: NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID
+    value: 513616240740
+  - variable: NEXT_PUBLIC_FIREBASE_APP_ID
+    value: 1:513616240740:web:e6258848bfae902e1f3f71
