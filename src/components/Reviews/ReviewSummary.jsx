@@ -17,14 +17,14 @@ export async function GeminiSummary({ restaurantId }) {
   const genAISafety = [
     {
       category: HarmCategory.HARM_CATEGORY_HARASSMENT,
-      threshold: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
     },
     {
       category: HarmCategory.HARM_CATEGORY_HATE_SPEECH,
-      threshold: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
+      threshold: HarmBlockThreshold.BLOCK_NONE,
     },
   ];
-  const model = genAi.getGenerativeModel(
+  const model = genAI.getGenerativeModel(
     { 
       model: "gemini-1.5-flash",
       safetySettings: genAISafety
